@@ -1,0 +1,100 @@
+body {
+    padding: 8px;
+    font-family: Helvetica;
+    /*background-color:#95C2EE;*/
+    background-color: #ffffba;
+    font-family: Karla, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .player {
+    border: 1px #000 solid;
+    border-radius: 100px;
+    position: absolute;
+  }
+
+  #buttons {
+    touch-action: manipulation;
+    padding: 16px;
+  }
+
+  .button {
+    width: 100px;
+    height: 60px
+  }
+
+  #container {
+      margin-top: 35px;
+    width: 100%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .title {
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  #nav {
+    position: fixed;
+    top: 0;
+    padding-bottom: 10px;
+    padding-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1;
+    background: #ffffba;
+  }
+
+  #nav a {
+      margin: 0px 10px;
+      font-style: oblique;
+      font-weight: bold;
+      /*opacity: 0; */
+      /* transition: opacity 0.9s ease-in-out; */
+  }
+
+  a {
+    margin: 0px 10px;
+    font-style: oblique;
+    font-weight: bold;
+    color:  #4a4a4a;
+  }
+
+  a:link {
+    font-family: Karla, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color:  #4a4a4a;
+    text-decoration-color: #4a4a4a;
+    text-decoration: none;
+  }
+
+ a:hover {
+    /*transform: translateX(5px);*/
+    text-decoration: underline;
+    animation: none;
+    /* animation: sideBounce .5s ease 0s infinite alternate */
+ }
+
+ .card-links {
+    padding: 0;
+    width: 100%;
+    /* opacity: 0.6; */
+}
